@@ -16,9 +16,11 @@ public class LoginTest extends BaseLibrary {
 	@Parameters("browsername")
 	public void LaunchUrl(String browsername) {
 		
-		launch("https://www.amazon.in/", browsername);
+		launchUrl("https://www.amazon.in/", browsername);
 		ob = new AmazonePages();
 	}
+
+	
 
 	@Test(priority = 0, groups = { "smoke", "sanity", "regression" })
 	public void ClickOnAll() {
