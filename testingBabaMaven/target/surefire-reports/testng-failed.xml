@@ -13,10 +13,10 @@
         <methods>
           <include name="ClickOnConfirmAlert"/>
           <include name="ClickOnPromptBox"/>
-          <include name="ClickOnalertsandwindow"/>
           <include name="CloseBrowser"/>
-          <include name="ClickOnclose"/>
+          <include name="ClickOnalertsandwindow"/>
           <include name="ClickOnSeeAlerts"/>
+          <include name="ClickOnclose"/>
           <include name="LAunchhUrl"/>
           <include name="ClickOnwaitfor5alert"/>
           <include name="ClickOnalerts"/>

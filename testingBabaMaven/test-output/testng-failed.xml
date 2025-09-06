@@ -2,27 +2,26 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]">
   <parameter name="browsername" value="chrome"/>
-  <test thread-count="5" name="AlertTest(failed)">
+  <test thread-count="5" name="CheckBoxTest(failed)">
     <groups>
       <run>
         <include name="regression"/>
       </run>
     </groups>
     <classes>
-      <class name="tests.AlertTest">
+      <class name="tests.CheckBoxTest">
         <methods>
-          <include name="ClickOnPromptBox"/>
-          <include name="ClickOnConfirmAlert"/>
-          <include name="ClickOnalertsandwindow"/>
-          <include name="CloseBrowser"/>
-          <include name="ClickOnclose"/>
-          <include name="ClickOnSeeAlerts"/>
-          <include name="ClickOnwaitfor5alert"/>
-          <include name="LAunchhUrl"/>
-          <include name="ClickOnpractice"/>
-          <include name="ClickOnalerts"/>
+          <include name="clickOnclose"/>
+          <include name="clickOncheckBox"/>
+          <include name="clickOnClosebrowser"/>
+          <include name="clickOnelements"/>
+          <include name="launchurl"/>
+          <include name="clickonlaptopcheck"/>
+          <include name="clickOnprictice"/>
+          <include name="clickOnmobileCheck"/>
+          <include name="clickondesktopcheck"/>
         </methods>
-      </class> <!-- tests.AlertTest -->
+      </class> <!-- tests.CheckBoxTest -->
     </classes>
-  </test> <!-- AlertTest(failed) -->
+  </test> <!-- CheckBoxTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

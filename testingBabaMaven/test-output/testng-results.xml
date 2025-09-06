@@ -1,36 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="0" failed="8" skipped="0">
+<testng-results ignored="0" total="7" passed="0" failed="0" skipped="7">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-06T20:43:18 IST" name="Suite" finished-at="2025-09-06T20:45:03 IST" duration-ms="105616">
+  <suite started-at="2025-09-06T21:35:43 IST" name="Suite" finished-at="2025-09-06T21:36:02 IST" duration-ms="19274">
     <groups>
       <group name="regression">
-        <method signature="AlertTest.ClickOnclose()[pri:0, instance:tests.AlertTest@3d34d211]" name="ClickOnclose" class="tests.AlertTest"/>
-        <method signature="AlertTest.ClickOnpractice()[pri:1, instance:tests.AlertTest@3d34d211]" name="ClickOnpractice" class="tests.AlertTest"/>
-        <method signature="AlertTest.ClickOnalertsandwindow()[pri:2, instance:tests.AlertTest@3d34d211]" name="ClickOnalertsandwindow" class="tests.AlertTest"/>
-        <method signature="AlertTest.ClickOnalerts()[pri:3, instance:tests.AlertTest@3d34d211]" name="ClickOnalerts" class="tests.AlertTest"/>
-        <method signature="AlertTest.ClickOnSeeAlerts()[pri:4, instance:tests.AlertTest@3d34d211]" name="ClickOnSeeAlerts" class="tests.AlertTest"/>
-        <method signature="AlertTest.ClickOnwaitfor5alert()[pri:5, instance:tests.AlertTest@3d34d211]" name="ClickOnwaitfor5alert" class="tests.AlertTest"/>
-        <method signature="AlertTest.ClickOnConfirmAlert()[pri:6, instance:tests.AlertTest@3d34d211]" name="ClickOnConfirmAlert" class="tests.AlertTest"/>
-        <method signature="AlertTest.ClickOnPromptBox()[pri:7, instance:tests.AlertTest@3d34d211]" name="ClickOnPromptBox" class="tests.AlertTest"/>
+        <method signature="CheckBoxTest.clickOnclose()[pri:1, instance:tests.CheckBoxTest@4009e306]" name="clickOnclose" class="tests.CheckBoxTest"/>
+        <method signature="CheckBoxTest.clickOnprictice()[pri:2, instance:tests.CheckBoxTest@4009e306]" name="clickOnprictice" class="tests.CheckBoxTest"/>
+        <method signature="CheckBoxTest.clickOnelements()[pri:3, instance:tests.CheckBoxTest@4009e306]" name="clickOnelements" class="tests.CheckBoxTest"/>
+        <method signature="CheckBoxTest.clickOncheckBox()[pri:4, instance:tests.CheckBoxTest@4009e306]" name="clickOncheckBox" class="tests.CheckBoxTest"/>
+        <method signature="CheckBoxTest.clickOnmobileCheck()[pri:5, instance:tests.CheckBoxTest@4009e306]" name="clickOnmobileCheck" class="tests.CheckBoxTest"/>
+        <method signature="CheckBoxTest.clickonlaptopcheck()[pri:6, instance:tests.CheckBoxTest@4009e306]" name="clickonlaptopcheck" class="tests.CheckBoxTest"/>
+        <method signature="CheckBoxTest.clickondesktopcheck()[pri:7, instance:tests.CheckBoxTest@4009e306]" name="clickondesktopcheck" class="tests.CheckBoxTest"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="AlertTest.ClickOnclose()[pri:0, instance:tests.AlertTest@3d34d211]" name="ClickOnclose" class="tests.AlertTest"/>
-        <method signature="AlertTest.ClickOnpractice()[pri:1, instance:tests.AlertTest@3d34d211]" name="ClickOnpractice" class="tests.AlertTest"/>
-        <method signature="AlertTest.ClickOnalertsandwindow()[pri:2, instance:tests.AlertTest@3d34d211]" name="ClickOnalertsandwindow" class="tests.AlertTest"/>
+        <method signature="CheckBoxTest.clickOnclose()[pri:1, instance:tests.CheckBoxTest@4009e306]" name="clickOnclose" class="tests.CheckBoxTest"/>
+        <method signature="CheckBoxTest.clickOnprictice()[pri:2, instance:tests.CheckBoxTest@4009e306]" name="clickOnprictice" class="tests.CheckBoxTest"/>
+        <method signature="CheckBoxTest.clickOnelements()[pri:3, instance:tests.CheckBoxTest@4009e306]" name="clickOnelements" class="tests.CheckBoxTest"/>
       </group> <!-- smoke -->
       <group name="sanity">
-        <method signature="AlertTest.ClickOnclose()[pri:0, instance:tests.AlertTest@3d34d211]" name="ClickOnclose" class="tests.AlertTest"/>
-        <method signature="AlertTest.ClickOnpractice()[pri:1, instance:tests.AlertTest@3d34d211]" name="ClickOnpractice" class="tests.AlertTest"/>
-        <method signature="AlertTest.ClickOnalertsandwindow()[pri:2, instance:tests.AlertTest@3d34d211]" name="ClickOnalertsandwindow" class="tests.AlertTest"/>
-        <method signature="AlertTest.ClickOnalerts()[pri:3, instance:tests.AlertTest@3d34d211]" name="ClickOnalerts" class="tests.AlertTest"/>
-        <method signature="AlertTest.ClickOnSeeAlerts()[pri:4, instance:tests.AlertTest@3d34d211]" name="ClickOnSeeAlerts" class="tests.AlertTest"/>
-        <method signature="AlertTest.ClickOnwaitfor5alert()[pri:5, instance:tests.AlertTest@3d34d211]" name="ClickOnwaitfor5alert" class="tests.AlertTest"/>
+        <method signature="CheckBoxTest.clickOnclose()[pri:1, instance:tests.CheckBoxTest@4009e306]" name="clickOnclose" class="tests.CheckBoxTest"/>
+        <method signature="CheckBoxTest.clickOnprictice()[pri:2, instance:tests.CheckBoxTest@4009e306]" name="clickOnprictice" class="tests.CheckBoxTest"/>
+        <method signature="CheckBoxTest.clickOnelements()[pri:3, instance:tests.CheckBoxTest@4009e306]" name="clickOnelements" class="tests.CheckBoxTest"/>
+        <method signature="CheckBoxTest.clickOncheckBox()[pri:4, instance:tests.CheckBoxTest@4009e306]" name="clickOncheckBox" class="tests.CheckBoxTest"/>
+        <method signature="CheckBoxTest.clickOnmobileCheck()[pri:5, instance:tests.CheckBoxTest@4009e306]" name="clickOnmobileCheck" class="tests.CheckBoxTest"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2025-09-06T20:43:18 IST" name="AlertTest" finished-at="2025-09-06T20:45:03 IST" duration-ms="105616">
-      <class name="tests.AlertTest">
-        <test-method is-config="true" signature="LAunchhUrl(java.lang.String)[pri:0, instance:tests.AlertTest@3d34d211]" started-at="2025-09-06T20:43:18 IST" name="LAunchhUrl" finished-at="2025-09-06T20:43:51 IST" duration-ms="33146" status="PASS">
+    <test started-at="2025-09-06T21:35:43 IST" name="CheckBoxTest" finished-at="2025-09-06T21:36:02 IST" duration-ms="19274">
+      <class name="tests.CheckBoxTest">
+        <test-method is-config="true" signature="launchurl(java.lang.String)[pri:0, instance:tests.CheckBoxTest@4009e306]" started-at="2025-09-06T21:35:43 IST" name="launchurl" finished-at="2025-09-06T21:36:02 IST" duration-ms="19100" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -38,10 +36,6 @@
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LAunchhUrl -->
-        <test-method signature="ClickOnclose()[pri:0, instance:tests.AlertTest@3d34d211]" started-at="2025-09-06T20:43:51 IST" name="ClickOnclose" finished-at="2025-09-06T20:44:01 IST" duration-ms="10341" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
               <![CDATA[no such window: target window already closed
@@ -50,9 +44,9 @@ from unknown error: web view not found
 Build info: version: '4.34.0', revision: '707dcb4246*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4c6256775e2cf9cbaa06e709a9f76e7c, findElement {using=xpath, value=//button[text()='×']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\KIIT\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64271/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4c6256775e2cf9cbaa06e709a9f76e7c]]>
+Command: [9d1827e8a1159549cefc8eb9c7f6beea, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\KIIT\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53792}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53792/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d1827e8a1159549cefc8eb9c7f6beea]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
@@ -61,9 +55,9 @@ from unknown error: web view not found
 Build info: version: '4.34.0', revision: '707dcb4246*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4c6256775e2cf9cbaa06e709a9f76e7c, findElement {using=xpath, value=//button[text()='×']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\KIIT\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64271/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4c6256775e2cf9cbaa06e709a9f76e7c
+Command: [9d1827e8a1159549cefc8eb9c7f6beea, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\KIIT\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53792}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53792/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d1827e8a1159549cefc8eb9c7f6beea
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -74,33 +68,20 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy15.toString(Unknown Source)
-at java.base/java.lang.String.valueOf(String.java:4465)
-at org.openqa.selenium.support.ui.ExpectedConditions$23.toString(ExpectedConditions.java:669)
-at java.base/java.lang.String.valueOf(String.java:4465)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:225)
-at baselibrary.BaseLibrary.waitandclick(BaseLibrary.java:75)
-at pages.Alerts.clickonclose(Alerts.java:44)
-at tests.AlertTest.ClickOnclose(AlertTest.java:26)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:621)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1047)
+at baselibrary.BaseLibrary.launchUrl(BaseLibrary.java:53)
+at tests.CheckBoxTest.launchurl(CheckBoxTest.java:19)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657)
+at org.testng.TestRunner.beforeRun(TestRunner.java:646)
+at org.testng.TestRunner.run(TestRunner.java:612)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
 at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
 at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
@@ -119,8 +100,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ClickOnclose -->
-        <test-method signature="ClickOnpractice()[pri:1, instance:tests.AlertTest@3d34d211]" started-at="2025-09-06T20:44:01 IST" name="ClickOnpractice" finished-at="2025-09-06T20:44:12 IST" duration-ms="10333" status="FAIL">
+        </test-method> <!-- launchurl -->
+        <test-method signature="clickOnclose()[pri:1, instance:tests.CheckBoxTest@4009e306]" started-at="2025-09-06T21:36:02 IST" name="clickOnclose" finished-at="2025-09-06T21:36:02 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
               <![CDATA[no such window: target window already closed
@@ -129,9 +110,9 @@ from unknown error: web view not found
 Build info: version: '4.34.0', revision: '707dcb4246*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4c6256775e2cf9cbaa06e709a9f76e7c, findElement {using=xpath, value=//a[@href='newdemo.html']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\KIIT\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64271/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4c6256775e2cf9cbaa06e709a9f76e7c]]>
+Command: [9d1827e8a1159549cefc8eb9c7f6beea, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\KIIT\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53792}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53792/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d1827e8a1159549cefc8eb9c7f6beea]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
@@ -140,9 +121,9 @@ from unknown error: web view not found
 Build info: version: '4.34.0', revision: '707dcb4246*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4c6256775e2cf9cbaa06e709a9f76e7c, findElement {using=xpath, value=//a[@href='newdemo.html']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\KIIT\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64271/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4c6256775e2cf9cbaa06e709a9f76e7c
+Command: [9d1827e8a1159549cefc8eb9c7f6beea, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\KIIT\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53792}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53792/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d1827e8a1159549cefc8eb9c7f6beea
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -153,33 +134,20 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy15.toString(Unknown Source)
-at java.base/java.lang.String.valueOf(String.java:4465)
-at org.openqa.selenium.support.ui.ExpectedConditions$23.toString(ExpectedConditions.java:669)
-at java.base/java.lang.String.valueOf(String.java:4465)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:225)
-at baselibrary.BaseLibrary.waitandclick(BaseLibrary.java:75)
-at pages.Alerts.clickonpractice(Alerts.java:49)
-at tests.AlertTest.ClickOnpractice(AlertTest.java:31)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:621)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1047)
+at baselibrary.BaseLibrary.launchUrl(BaseLibrary.java:53)
+at tests.CheckBoxTest.launchurl(CheckBoxTest.java:19)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657)
+at org.testng.TestRunner.beforeRun(TestRunner.java:646)
+at org.testng.TestRunner.run(TestRunner.java:612)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
 at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
 at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
@@ -198,8 +166,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ClickOnpractice -->
-        <test-method signature="ClickOnalertsandwindow()[pri:2, instance:tests.AlertTest@3d34d211]" started-at="2025-09-06T20:44:12 IST" name="ClickOnalertsandwindow" finished-at="2025-09-06T20:44:22 IST" duration-ms="10307" status="FAIL">
+        </test-method> <!-- clickOnclose -->
+        <test-method signature="clickOnprictice()[pri:2, instance:tests.CheckBoxTest@4009e306]" started-at="2025-09-06T21:36:02 IST" name="clickOnprictice" finished-at="2025-09-06T21:36:02 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
               <![CDATA[no such window: target window already closed
@@ -208,9 +176,9 @@ from unknown error: web view not found
 Build info: version: '4.34.0', revision: '707dcb4246*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4c6256775e2cf9cbaa06e709a9f76e7c, findElement {using=xpath, value=//button[@data-target='#alerts']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\KIIT\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64271/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4c6256775e2cf9cbaa06e709a9f76e7c]]>
+Command: [9d1827e8a1159549cefc8eb9c7f6beea, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\KIIT\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53792}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53792/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d1827e8a1159549cefc8eb9c7f6beea]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
@@ -219,9 +187,9 @@ from unknown error: web view not found
 Build info: version: '4.34.0', revision: '707dcb4246*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4c6256775e2cf9cbaa06e709a9f76e7c, findElement {using=xpath, value=//button[@data-target='#alerts']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\KIIT\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64271/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4c6256775e2cf9cbaa06e709a9f76e7c
+Command: [9d1827e8a1159549cefc8eb9c7f6beea, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\KIIT\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53792}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53792/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d1827e8a1159549cefc8eb9c7f6beea
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -232,33 +200,20 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy15.toString(Unknown Source)
-at java.base/java.lang.String.valueOf(String.java:4465)
-at org.openqa.selenium.support.ui.ExpectedConditions$23.toString(ExpectedConditions.java:669)
-at java.base/java.lang.String.valueOf(String.java:4465)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:225)
-at baselibrary.BaseLibrary.waitandclick(BaseLibrary.java:75)
-at pages.Alerts.clickonalertsandwindow(Alerts.java:54)
-at tests.AlertTest.ClickOnalertsandwindow(AlertTest.java:36)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:621)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1047)
+at baselibrary.BaseLibrary.launchUrl(BaseLibrary.java:53)
+at tests.CheckBoxTest.launchurl(CheckBoxTest.java:19)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657)
+at org.testng.TestRunner.beforeRun(TestRunner.java:646)
+at org.testng.TestRunner.run(TestRunner.java:612)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
 at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
 at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
@@ -277,8 +232,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ClickOnalertsandwindow -->
-        <test-method signature="ClickOnalerts()[pri:3, instance:tests.AlertTest@3d34d211]" started-at="2025-09-06T20:44:22 IST" name="ClickOnalerts" finished-at="2025-09-06T20:44:32 IST" duration-ms="10316" status="FAIL">
+        </test-method> <!-- clickOnprictice -->
+        <test-method signature="clickOnelements()[pri:3, instance:tests.CheckBoxTest@4009e306]" started-at="2025-09-06T21:36:02 IST" name="clickOnelements" finished-at="2025-09-06T21:36:02 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
               <![CDATA[no such window: target window already closed
@@ -287,9 +242,9 @@ from unknown error: web view not found
 Build info: version: '4.34.0', revision: '707dcb4246*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4c6256775e2cf9cbaa06e709a9f76e7c, findElement {using=xpath, value=//a[@href='#tab_12']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\KIIT\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64271/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4c6256775e2cf9cbaa06e709a9f76e7c]]>
+Command: [9d1827e8a1159549cefc8eb9c7f6beea, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\KIIT\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53792}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53792/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d1827e8a1159549cefc8eb9c7f6beea]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
@@ -298,9 +253,9 @@ from unknown error: web view not found
 Build info: version: '4.34.0', revision: '707dcb4246*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4c6256775e2cf9cbaa06e709a9f76e7c, findElement {using=xpath, value=//a[@href='#tab_12']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\KIIT\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64271/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4c6256775e2cf9cbaa06e709a9f76e7c
+Command: [9d1827e8a1159549cefc8eb9c7f6beea, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\KIIT\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53792}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53792/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d1827e8a1159549cefc8eb9c7f6beea
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -311,33 +266,20 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy15.toString(Unknown Source)
-at java.base/java.lang.String.valueOf(String.java:4465)
-at org.openqa.selenium.support.ui.ExpectedConditions$23.toString(ExpectedConditions.java:669)
-at java.base/java.lang.String.valueOf(String.java:4465)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:225)
-at baselibrary.BaseLibrary.waitandclick(BaseLibrary.java:75)
-at pages.Alerts.cliconalerts(Alerts.java:59)
-at tests.AlertTest.ClickOnalerts(AlertTest.java:41)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:621)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1047)
+at baselibrary.BaseLibrary.launchUrl(BaseLibrary.java:53)
+at tests.CheckBoxTest.launchurl(CheckBoxTest.java:19)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657)
+at org.testng.TestRunner.beforeRun(TestRunner.java:646)
+at org.testng.TestRunner.run(TestRunner.java:612)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
 at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
 at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
@@ -356,8 +298,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ClickOnalerts -->
-        <test-method signature="ClickOnSeeAlerts()[pri:4, instance:tests.AlertTest@3d34d211]" started-at="2025-09-06T20:44:32 IST" name="ClickOnSeeAlerts" finished-at="2025-09-06T20:44:32 IST" duration-ms="22" status="FAIL">
+        </test-method> <!-- clickOnelements -->
+        <test-method signature="clickOncheckBox()[pri:4, instance:tests.CheckBoxTest@4009e306]" started-at="2025-09-06T21:36:02 IST" name="clickOncheckBox" finished-at="2025-09-06T21:36:02 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
               <![CDATA[no such window: target window already closed
@@ -366,9 +308,9 @@ from unknown error: web view not found
 Build info: version: '4.34.0', revision: '707dcb4246*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4c6256775e2cf9cbaa06e709a9f76e7c, findElement {using=xpath, value=//button[@onclick='myalert()']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\KIIT\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64271/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4c6256775e2cf9cbaa06e709a9f76e7c]]>
+Command: [9d1827e8a1159549cefc8eb9c7f6beea, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\KIIT\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53792}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53792/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d1827e8a1159549cefc8eb9c7f6beea]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
@@ -377,9 +319,9 @@ from unknown error: web view not found
 Build info: version: '4.34.0', revision: '707dcb4246*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4c6256775e2cf9cbaa06e709a9f76e7c, findElement {using=xpath, value=//button[@onclick='myalert()']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\KIIT\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64271/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4c6256775e2cf9cbaa06e709a9f76e7c
+Command: [9d1827e8a1159549cefc8eb9c7f6beea, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\KIIT\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53792}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53792/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d1827e8a1159549cefc8eb9c7f6beea
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -390,28 +332,20 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
-at pages.Alerts.cliconseealerts(Alerts.java:64)
-at tests.AlertTest.ClickOnSeeAlerts(AlertTest.java:47)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:621)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1047)
+at baselibrary.BaseLibrary.launchUrl(BaseLibrary.java:53)
+at tests.CheckBoxTest.launchurl(CheckBoxTest.java:19)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657)
+at org.testng.TestRunner.beforeRun(TestRunner.java:646)
+at org.testng.TestRunner.run(TestRunner.java:612)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
 at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
 at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
@@ -430,8 +364,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ClickOnSeeAlerts -->
-        <test-method signature="ClickOnwaitfor5alert()[pri:5, instance:tests.AlertTest@3d34d211]" started-at="2025-09-06T20:44:32 IST" name="ClickOnwaitfor5alert" finished-at="2025-09-06T20:44:43 IST" duration-ms="10327" status="FAIL">
+        </test-method> <!-- clickOncheckBox -->
+        <test-method signature="clickOnmobileCheck()[pri:5, instance:tests.CheckBoxTest@4009e306]" started-at="2025-09-06T21:36:02 IST" name="clickOnmobileCheck" finished-at="2025-09-06T21:36:02 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
               <![CDATA[no such window: target window already closed
@@ -440,9 +374,9 @@ from unknown error: web view not found
 Build info: version: '4.34.0', revision: '707dcb4246*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4c6256775e2cf9cbaa06e709a9f76e7c, findElement {using=xpath, value=//button[@onclick="aftersec5()"]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\KIIT\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64271/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4c6256775e2cf9cbaa06e709a9f76e7c]]>
+Command: [9d1827e8a1159549cefc8eb9c7f6beea, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\KIIT\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53792}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53792/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d1827e8a1159549cefc8eb9c7f6beea]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
@@ -451,9 +385,9 @@ from unknown error: web view not found
 Build info: version: '4.34.0', revision: '707dcb4246*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4c6256775e2cf9cbaa06e709a9f76e7c, findElement {using=xpath, value=//button[@onclick="aftersec5()"]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\KIIT\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64271/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4c6256775e2cf9cbaa06e709a9f76e7c
+Command: [9d1827e8a1159549cefc8eb9c7f6beea, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\KIIT\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53792}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53792/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d1827e8a1159549cefc8eb9c7f6beea
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -464,33 +398,20 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy15.toString(Unknown Source)
-at java.base/java.lang.String.valueOf(String.java:4465)
-at org.openqa.selenium.support.ui.ExpectedConditions$23.toString(ExpectedConditions.java:669)
-at java.base/java.lang.String.valueOf(String.java:4465)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:225)
-at baselibrary.BaseLibrary.waitandclick(BaseLibrary.java:75)
-at pages.Alerts.cliconwaitfor5alert(Alerts.java:71)
-at tests.AlertTest.ClickOnwaitfor5alert(AlertTest.java:52)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:621)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1047)
+at baselibrary.BaseLibrary.launchUrl(BaseLibrary.java:53)
+at tests.CheckBoxTest.launchurl(CheckBoxTest.java:19)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657)
+at org.testng.TestRunner.beforeRun(TestRunner.java:646)
+at org.testng.TestRunner.run(TestRunner.java:612)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
 at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
 at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
@@ -509,8 +430,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ClickOnwaitfor5alert -->
-        <test-method signature="ClickOnConfirmAlert()[pri:6, instance:tests.AlertTest@3d34d211]" started-at="2025-09-06T20:44:43 IST" name="ClickOnConfirmAlert" finished-at="2025-09-06T20:44:53 IST" duration-ms="10404" status="FAIL">
+        </test-method> <!-- clickOnmobileCheck -->
+        <test-method signature="clickonlaptopcheck()[pri:6, instance:tests.CheckBoxTest@4009e306]" started-at="2025-09-06T21:36:02 IST" name="clickonlaptopcheck" finished-at="2025-09-06T21:36:02 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
               <![CDATA[no such window: target window already closed
@@ -519,9 +440,9 @@ from unknown error: web view not found
 Build info: version: '4.34.0', revision: '707dcb4246*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4c6256775e2cf9cbaa06e709a9f76e7c, findElement {using=xpath, value=//button[@onclick='myconfirm()']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\KIIT\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64271/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4c6256775e2cf9cbaa06e709a9f76e7c]]>
+Command: [9d1827e8a1159549cefc8eb9c7f6beea, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\KIIT\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53792}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53792/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d1827e8a1159549cefc8eb9c7f6beea]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
@@ -530,9 +451,9 @@ from unknown error: web view not found
 Build info: version: '4.34.0', revision: '707dcb4246*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4c6256775e2cf9cbaa06e709a9f76e7c, findElement {using=xpath, value=//button[@onclick='myconfirm()']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\KIIT\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64271/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4c6256775e2cf9cbaa06e709a9f76e7c
+Command: [9d1827e8a1159549cefc8eb9c7f6beea, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\KIIT\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53792}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53792/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d1827e8a1159549cefc8eb9c7f6beea
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -543,33 +464,20 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy15.toString(Unknown Source)
-at java.base/java.lang.String.valueOf(String.java:4465)
-at org.openqa.selenium.support.ui.ExpectedConditions$23.toString(ExpectedConditions.java:669)
-at java.base/java.lang.String.valueOf(String.java:4465)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:225)
-at baselibrary.BaseLibrary.waitandclick(BaseLibrary.java:75)
-at pages.Alerts.cliconconfirmalert(Alerts.java:78)
-at tests.AlertTest.ClickOnConfirmAlert(AlertTest.java:57)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:621)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1047)
+at baselibrary.BaseLibrary.launchUrl(BaseLibrary.java:53)
+at tests.CheckBoxTest.launchurl(CheckBoxTest.java:19)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657)
+at org.testng.TestRunner.beforeRun(TestRunner.java:646)
+at org.testng.TestRunner.run(TestRunner.java:612)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
 at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
 at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
@@ -588,8 +496,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ClickOnConfirmAlert -->
-        <test-method signature="ClickOnPromptBox()[pri:7, instance:tests.AlertTest@3d34d211]" started-at="2025-09-06T20:44:53 IST" name="ClickOnPromptBox" finished-at="2025-09-06T20:45:03 IST" duration-ms="10289" status="FAIL">
+        </test-method> <!-- clickonlaptopcheck -->
+        <test-method signature="clickondesktopcheck()[pri:7, instance:tests.CheckBoxTest@4009e306]" started-at="2025-09-06T21:36:02 IST" name="clickondesktopcheck" finished-at="2025-09-06T21:36:02 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
               <![CDATA[no such window: target window already closed
@@ -598,9 +506,9 @@ from unknown error: web view not found
 Build info: version: '4.34.0', revision: '707dcb4246*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4c6256775e2cf9cbaa06e709a9f76e7c, findElement {using=xpath, value=//button[@onclick='myprompt()']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\KIIT\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64271/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4c6256775e2cf9cbaa06e709a9f76e7c]]>
+Command: [9d1827e8a1159549cefc8eb9c7f6beea, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\KIIT\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53792}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53792/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d1827e8a1159549cefc8eb9c7f6beea]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
@@ -609,9 +517,9 @@ from unknown error: web view not found
 Build info: version: '4.34.0', revision: '707dcb4246*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4c6256775e2cf9cbaa06e709a9f76e7c, findElement {using=xpath, value=//button[@onclick='myprompt()']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\KIIT\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64271/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4c6256775e2cf9cbaa06e709a9f76e7c
+Command: [9d1827e8a1159549cefc8eb9c7f6beea, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\KIIT\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53792}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53792/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d1827e8a1159549cefc8eb9c7f6beea
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -622,33 +530,20 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy15.toString(Unknown Source)
-at java.base/java.lang.String.valueOf(String.java:4465)
-at org.openqa.selenium.support.ui.ExpectedConditions$23.toString(ExpectedConditions.java:669)
-at java.base/java.lang.String.valueOf(String.java:4465)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:225)
-at baselibrary.BaseLibrary.waitandclick(BaseLibrary.java:75)
-at pages.Alerts.cliconconpromptbox(Alerts.java:85)
-at tests.AlertTest.ClickOnPromptBox(AlertTest.java:62)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:621)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1047)
+at baselibrary.BaseLibrary.launchUrl(BaseLibrary.java:53)
+at tests.CheckBoxTest.launchurl(CheckBoxTest.java:19)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657)
+at org.testng.TestRunner.beforeRun(TestRunner.java:646)
+at org.testng.TestRunner.run(TestRunner.java:612)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
 at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
 at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
@@ -667,1042 +562,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ClickOnPromptBox -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:tests.AlertTest@3d34d211]" started-at="2025-09-06T20:45:03 IST" name="CloseBrowser" finished-at="2025-09-06T20:45:03 IST" duration-ms="9" status="FAIL">
-          <exception class="java.lang.StackOverflowError">
-            <full-stacktrace>
-              <![CDATA[java.lang.StackOverflowError
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-at tests.AlertTest.CloseBrowser(AlertTest.java:67)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.StackOverflowError -->
+        </test-method> <!-- clickondesktopcheck -->
+        <test-method is-config="true" signature="clickOnClosebrowser()[pri:0, instance:tests.CheckBoxTest@4009e306]" started-at="2025-09-06T21:36:02 IST" name="clickOnClosebrowser" finished-at="2025-09-06T21:36:02 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CloseBrowser -->
-      </class> <!-- tests.AlertTest -->
-    </test> <!-- AlertTest -->
+        </test-method> <!-- clickOnClosebrowser -->
+      </class> <!-- tests.CheckBoxTest -->
+    </test> <!-- CheckBoxTest -->
   </suite> <!-- Suite -->
 </testng-results>

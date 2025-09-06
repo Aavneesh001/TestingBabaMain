@@ -6,6 +6,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import java.io.File;
 import java.io.FileInputStream;
 import java.time.Duration;
+import java.util.Properties;
 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -23,10 +24,11 @@ import org.testng.annotations.DataProvider;
 
 import applicationUtility.ApplicationUtility;
 import excelUtility.ExcelUtility;
+import propertyUtility.PropertyUtility;
 import screenshotUtility.ScreenshotUtility;
 import waitUtility.WaitUtility;
 
-public class BaseLibrary implements ApplicationUtility, WaitUtility , ScreenshotUtility , ExcelUtility {
+public class BaseLibrary implements ApplicationUtility, WaitUtility , ScreenshotUtility , ExcelUtility, PropertyUtility {
     
 	
 	String path = "gdgaiud";
@@ -168,6 +170,25 @@ public class BaseLibrary implements ApplicationUtility, WaitUtility , Screenshot
 	}
 	
 
+	@Override
+	public String getreaddata(String path, String key) {
+
+		String value = " ";
+
+		try {
+
+			FileInputStream fis = new FileInputStream(path);
+			Properties prop = new Properties();
+			prop.load(fis);
+			value = prop.getProperty(key);
+
+		} catch (Exception e) {
+			System.out.println("error in read data" + e);
+		}
+
+		return value;
+	}	
+	
 	
 	
 	}

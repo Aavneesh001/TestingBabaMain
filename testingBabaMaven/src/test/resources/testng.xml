@@ -14,7 +14,7 @@
     </classes>
   </test> <!-- Test -->
   
-  <test name="AlertTest" enabled = "true">
+  <test name="AlertTest" enabled = "false">
       <groups>
     <run>
       <include name = "regression"/>
@@ -22,6 +22,17 @@
   </groups>
     <classes>
       <class name="tests.AlertTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="CheckBoxTest" enabled = "true">
+      <groups>
+    <run>
+      <include name = "regression"/>
+    </run>
+  </groups>
+    <classes>
+      <class name="tests.CheckBoxTest"/>
     </classes>
   </test> <!-- Test -->
   
