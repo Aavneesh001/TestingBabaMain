@@ -40,6 +40,13 @@
     <artifactId>webdrivermanager</artifactId>
     <version>6.1.0</version>
 </dependency>
+
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>5.2.5</version>
+</dependency>
+
   
   </dependencies>
   
@@ -59,7 +66,13 @@
 </build>
 
 
-  
+ <properties>
+    <!-- Set encoding for source code -->
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+    <!-- Set encoding for reporting plugins (like Javadoc, Surefire reports, etc.) -->
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+  </properties> 
   
   
 
