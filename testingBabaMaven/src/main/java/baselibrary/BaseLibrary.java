@@ -1,8 +1,10 @@
 package baselibrary;
 import org.apache.commons.io.FileUtils;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
 import java.io.File;
-
-
+import java.io.FileInputStream;
 import java.time.Duration;
 
 import org.openqa.selenium.OutputType;
@@ -20,14 +22,17 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.DataProvider;
 
 import applicationUtility.ApplicationUtility;
+import excelUtility.ExcelUtility;
 import screenshotUtility.ScreenshotUtility;
 import waitUtility.WaitUtility;
 
-public class BaseLibrary implements ApplicationUtility, WaitUtility , ScreenshotUtility {
-
+public class BaseLibrary implements ApplicationUtility, WaitUtility , ScreenshotUtility , ExcelUtility {
+    
+	
+	String path = "gdgaiud";
 	public static WebDriver driver = null;
 
-	public void launch(String url, String browsername) {
+	public void launchUrl( String url, String browsername) {
 
 		if (browsername.equalsIgnoreCase("chrome")) {
 			driver = new ChromeDriver();
@@ -41,6 +46,7 @@ public class BaseLibrary implements ApplicationUtility, WaitUtility , Screenshot
 			driver = new FirefoxDriver();
 		}
 
+		
 		driver.get(url);
 		driver.manage().window().maximize();
 
@@ -136,6 +142,29 @@ public class BaseLibrary implements ApplicationUtility, WaitUtility , Screenshot
 
 		}
 
+	}
+	
+	
+	@Override
+	public String getreaddata(int sheetno, int rowno, int colno, String path) {
+
+		String value = " ";
+
+		try {
+			FileInputStream fis = new FileInputStream(path);
+			XSSFWorkbook wb = new XSSFWorkbook(fis);
+			XSSFSheet sheet = wb.getSheetAt(sheetno);
+			value = sheet.getRow(rowno).getCell(colno).getStringCellValue();
+
+		} catch (Exception e) {
+			{
+				System.out.println("error in read data" + e);
+
+			}
+
+		}
+
+		return value;
 	}
 	
 

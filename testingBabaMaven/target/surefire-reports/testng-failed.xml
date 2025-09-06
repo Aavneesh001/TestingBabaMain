@@ -2,27 +2,27 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" verbose="0">
   <parameter name="browsername" value="chrome"/>
-  <test thread-count="5" name="Test(failed)" verbose="0">
+  <test thread-count="5" name="AlertTest(failed)" verbose="0">
     <groups>
       <run>
         <include name="regression"/>
       </run>
     </groups>
     <classes>
-      <class name="tests.LoginTest">
+      <class name="tests.AlertTest">
         <methods>
-          <include name="ClickOnSineon"/>
-          <include name="ClickOnAll"/>
-          <include name="ClickOnContinue"/>
-          <include name="ClickOnLogin"/>
-          <include name="EnterMobileNo"/>
-          <include name="ClickOnAll2"/>
-          <include name="LaunchUrl"/>
+          <include name="ClickOnConfirmAlert"/>
+          <include name="ClickOnPromptBox"/>
+          <include name="ClickOnalertsandwindow"/>
           <include name="CloseBrowser"/>
-          <include name="EnterPassword"/>
-          <include name="ClickOnSineout"/>
+          <include name="ClickOnclose"/>
+          <include name="ClickOnSeeAlerts"/>
+          <include name="LAunchhUrl"/>
+          <include name="ClickOnwaitfor5alert"/>
+          <include name="ClickOnalerts"/>
+          <include name="ClickOnpractice"/>
         </methods>
-      </class> <!-- tests.LoginTest -->
+      </class> <!-- tests.AlertTest -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- AlertTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
