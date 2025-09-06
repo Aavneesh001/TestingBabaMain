@@ -11,9 +11,15 @@
     <classes>
       <class name="tests.LoginTest">
         <methods>
+          <include name="ClickOnSineon"/>
+          <include name="ClickOnAll"/>
+          <include name="ClickOnContinue"/>
+          <include name="ClickOnLogin"/>
+          <include name="EnterMobileNo"/>
           <include name="ClickOnAll2"/>
           <include name="LaunchUrl"/>
           <include name="CloseBrowser"/>
+          <include name="EnterPassword"/>
           <include name="ClickOnSineout"/>
         </methods>
       </class> <!-- tests.LoginTest -->
