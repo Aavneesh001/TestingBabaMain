@@ -1,0 +1,15 @@
+
+
+<suite name="Suite">
+ <parameter name="browsername" value="chrome"/>
+  <test  name="Test">
+      <groups>
+    <run>
+      <include name = "regression"/>
+    </run>
+  </groups>
+    <classes>
+      <class name="tests.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
